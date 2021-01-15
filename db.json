@@ -1,0 +1,175 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "creation_datetime": 1609857069955,
+      "name": "Бёрн",
+      "gender": "male",
+      "age": 112993200000,
+      "animal": "собака",
+      "size": "средний",
+      "description": "Бёрн не из тех собак, которые любят обнимашки. Он сильный и серьезный, всякие 'уси-пуси' не для него. Ласку он любит, но такую спокойную, не навязчивую. Ему больше нравится просто ощущать человека рядом. Хотя со временем все может измениться! Своему хозяину Берн наверняка будет позволять очень многое.",
+      "owner_id": "1",
+      "info": {
+        "adaptation": true,
+        "fur": "Средняя",
+        "size": "Средний"
+      },
+      "traits": {
+        "active": 75,
+        "friendly": 60,
+        "sociable": 85
+      },
+      "health": {
+        "vaccine": true,
+        "sterile": false
+      },
+      "reason": "Меня нашли на улице и временно приютили в питомнике.",
+      "pics": [
+        "/img/animals/1/1.jpg",
+        "/img/animals/1/2.jpg"
+      ],
+      "views": 70,
+      "likes": 25
+    },
+    {
+      "id": 2,
+      "creation_datetime": 1609857069955,
+      "name": "Жак",
+      "gender": "male",
+      "age": 5079600000,
+      "animal": "кот",
+      "size": "средний",
+      "description": "Жак не из тех кошек, которые любят обнимашки. Он сильный и серьезный, всякие 'уси-пуси' не для него. Ласку он любит, но такую спокойную, не навязчивую. Ему больше нравится просто ощущать человека рядом. Хотя со временем все может измениться! Своему хозяину Жак наверняка будет позволять очень многое.",
+      "owner_id": "2",
+      "info": {
+        "adaptation": true,
+        "fur": "Длинная",
+        "size": "Средний"
+      },
+      "traits": {
+        "active": 60,
+        "friendly": 80,
+        "sociable": 73
+      },
+      "health": {
+        "vaccine": true,
+        "sterile": true
+      },
+      "reason": "Меня нашли на улице и временно приютили в питомнике.",
+      "pics": [
+        "/img/animals/2/1.jpg",
+        "/img/animals/2/2.jpg",
+        "/img/animals/2/3.jpg"
+      ],
+      "views": 190,
+      "likes": 14
+    },
+    {
+      "id": 3,
+      "creation_datetime": 1609857069955,
+      "name": "Шуша",
+      "gender": "female",
+      "age": 2592000000,
+      "animal": "кот",
+      "size": "средний",
+      "description": "Шуша не из тех кошек, которые любят обнимашки. Она сильная и серьезная, всякие 'уси-пуси' не для неё. Ласку она любит, но такую спокойную, не навязчивую. Ей больше нравится просто ощущать человека рядом. Хотя со временем все может измениться! Своему хозяину Киса наверняка будет позволять очень многое.",
+      "owner_id": "1",
+      "info": {
+        "adaptation": true,
+        "fur": "Короткая",
+        "size": "Средний"
+      },
+      "traits": {
+        "active": 75,
+        "sociable": 85
+      },
+      "health": {
+        "vaccine": false,
+        "sterile": false
+      },
+      "reason": "Меня нашли на улице и временно приютили в питомнике.",
+      "pics": [
+        "/img/animals/3/1.jpg",
+        "/img/animals/3/2.jpg"
+      ],
+      "views": 68,
+      "likes": 21
+    },
+    {
+      "name": "",
+      "gender": "",
+      "size": "",
+      "age": 5079600000,
+      "animal": "",
+      "description": "",
+      "info": {
+        "adaptation": false,
+        "fur": "",
+        "size": ""
+      },
+      "traits": {
+        "active": "",
+        "sociable": "",
+        "friendly": ""
+      },
+      "health": {
+        "vaccine": false,
+        "sterile": false
+      },
+      "reason": "Меня нашли на улице и временно приютили в питомнике.",
+      "creation_datetime": 1610751484084,
+      "pics": [
+        "/img/animals/stub.jpg"
+      ],
+      "likes": 0,
+      "views": 0,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "creation_datetime": "1609857069955",
+      "name": "Елена Рогачёва",
+      "address": "Комсомольская, 67",
+      "phone": "+79191215068"
+    },
+    {
+      "id": 2,
+      "creation_datetime": "1609857069955",
+      "name": "Полина Осинская",
+      "location": "Россия, Екатеринбург",
+      "age": 959796000000,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac arcu in velit mattis euismod. Aenean leo dui, tempus ac tempus sit amet, egestas non dolor. In bibendum vehicula lorem, nec rhoncus lorem ornare ut.",
+      "address": "Мира, 32",
+      "job": "Аналитик",
+      "experience": "Никогда не имела животных",
+      "contacts": {
+        "email": "polina.osinskaya@gmail.com",
+        "phone": "+79131234567",
+        "vk": "@zwxcv",
+        "ig": "@zwxcv"
+      },
+      "photo": "/img/users/2_full.jpg",
+      "meetings": [
+        {
+          "id": 1,
+          "animal_id": 1,
+          "datetime": 1601022600000
+        },
+        {
+          "id": 2,
+          "animal_id": 3,
+          "datetime": 1601102400000
+        }
+      ],
+      "posts": [
+        "2"
+      ]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
