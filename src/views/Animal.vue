@@ -24,7 +24,7 @@
                     <vs-col w="9" >
                         <vs-row align="center">
                             <vs-avatar circle style="margin-right: 20px;">
-                                <img src="../assets/users/1.png" alt="">
+                                <img :src="'/img/users/'+owner.id+'.png'" alt="">
                             </vs-avatar>
                             <b>{{owner ? owner.name : ''}}</b>
                         </vs-row>

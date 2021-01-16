@@ -97,28 +97,29 @@
       "likes": 21
     },
     {
-      "name": "",
-      "gender": "",
-      "size": "",
+      "name": "Котик",
+      "gender": "male",
+      "size": "средний",
       "age": 5079600000,
-      "animal": "",
-      "description": "",
+      "animal": "кот",
+      "description": "Мой Котик такой хороший!",
       "info": {
-        "adaptation": false,
-        "fur": "",
+        "adaptation": true,
+        "fur": "Короткая",
         "size": ""
       },
       "traits": {
-        "active": "",
-        "sociable": "",
-        "friendly": ""
+        "active": "90",
+        "sociable": "75",
+        "friendly": "80"
       },
       "health": {
         "vaccine": false,
-        "sterile": false
+        "sterile": true
       },
       "reason": "Меня нашли на улице и временно приютили в питомнике.",
-      "creation_datetime": 1610751484084,
+      "creation_datetime": 1610780777633,
+      "owner_id": "2",
       "pics": [
         "/img/animals/stub.jpg"
       ],
@@ -143,6 +144,7 @@
       "age": 959796000000,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac arcu in velit mattis euismod. Aenean leo dui, tempus ac tempus sit amet, egestas non dolor. In bibendum vehicula lorem, nec rhoncus lorem ornare ut.",
       "address": "Мира, 32",
+      "phone": "+79224567823",
       "job": "Аналитик",
       "experience": "Никогда не имела животных",
       "contacts": {

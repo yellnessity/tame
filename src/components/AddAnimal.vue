@@ -162,7 +162,7 @@ export default {
     methods: {
         confirmAdd() {
             let now = moment()
-            this.$store.dispatch("ADD_ANIMAL", {...this.animal, creation_datetime: now.valueOf(), 
+            this.$store.dispatch("ADD_ANIMAL", {...this.animal, creation_datetime: now.valueOf(), owner_id: "2",
             pics: ["/img/animals/stub.jpg"], likes: 0, views: 0
             })
             this.$emit('onAnimalAdd')

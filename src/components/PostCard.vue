@@ -1,4 +1,5 @@
 <template>
+<router-link :to="'/animal?id='+animal.id">
     <vs-card type="4">
         <template #title>
             <h3 style="text-align: left;">{{animal.name}}</h3>
@@ -30,7 +31,7 @@
         </vs-button>
         </template>
     </vs-card>
-  
+</router-link>
 </template>
 
 <script>
